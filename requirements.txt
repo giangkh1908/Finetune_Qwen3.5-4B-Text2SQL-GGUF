@@ -1,7 +1,8 @@
-﻿# Core Unsloth & Transformers
+# Core Unsloth & Transformers
 torch>=2.4.0
 transformers>=4.48.0
 unsloth>=2025.2.0
+unsloth_zoo
 peft>=0.14.0
 trl>=0.14.0
 bitsandbytes>=0.45.0
