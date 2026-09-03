@@ -1,5 +1,6 @@
 import argparse
 import os
+os.environ["UNSLOTH_SKIP_TORCHVISION_CHECK"] = "1"
 import yaml
 from unsloth import FastLanguageModel
 from unsloth.chat_templates import train_on_responses_only
