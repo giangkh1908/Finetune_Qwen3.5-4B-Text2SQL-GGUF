@@ -1,0 +1,30 @@
+﻿# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw Data (large huggingface datasets)
+raw_data/
+
+# Model outputs & checkpoints
+outputs/
+checkpoints/
+*.gguf
+*.bin
+*.safetensors
+
+# SQLite database files
+*.sqlite
+*.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
